@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi HTML</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <nav>
+            <div class="icon"><h1><a href="index.html">Well Noted</a></h1></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Dictionary</a></li>
+                    <li><a href="materi-html.html">Matery</a></li>
+                    <li><a href="">My Target</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>        
+        <section class="materi">
+            <article class="materi-html_basic">
+                <h3>#Page 1 - Basic HTML</h3>
+                <h4>Pengertian HTML</h4>
+                <p>HTML adalah sebuah bahasa pemrograman dasar untuk sebuah web development, berkepanjangan "Hypertext markup language". Html berfungsi sebagai sebuah bahasa yang mengawali atau membentuk suatu struktur web dan diikuti atau disempurnakan oleh bahasa lainnya seperti CSS atau javascript</p>
+            </article>
+            <hr>
+            <article class="materi-html_semantic">
+                <h3>#Page 2 - Semantic HTML</h3>
+                <p>adalah sebuah format atau aturan penulisan tag html yang mudah dikenali oleh manusia maupun mesin dan mempunyai makna pada setiap tagnya, sehingga website kita mudah diedit atau dibaca dalam segi editing dan mudah terbaca mesin pencari web (web browser).</p>
+                <p>Semantic HTML juga bagus dalam SEO (Search Engine Optimization) dimana mesin pencari dengan mudah memahami struktur web dan menyediakan kepada para pengguna internet secara relevan apa yang mereka cari, bisa juga diartikan kalau semantic HTML itu Search Engine Friendly. Search engine juga akan memprioritaskan Website yang menggunakan Semantic HTML daripada website yang tidak menggunakannya</p>
+                <h4>Contoh stuktur html semantic :</h4>
+                <img src="assets/image/semantichtml.png" alt="example of semantic structure pict">
+                <h4>Contoh tag html semantic</h4>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Tag</th>
+                        <th>Fungsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>header</code></td>
+                            <td>Tag Semantic html yang berfungsi mendefinisikan bagian Header / kepala pada halaman web</td>
+                        </tr>
+                        <tr>
+                            <td><code>nav</code></td>
+                            <td>mendefinisikan sebuah bagian navigasi pada website</td>
+                        </tr>
+                        <tr>
+                            <td><code>main</code></td>
+                            <td>mendefinisikan konten utama pada sebuah website</td>
+                        </tr>
+                        <tr>
+                            <td><code>article</code></td>
+                            <td>mendefinisikan konten independet pada sebuah web dan tidak terkait oleh konten lainnya ( dapat berdiri sendiri )</td>
+                        </tr>
+                        <tr>
+                            <td><code>section</code></td>
+                            <td>Tag semantic html yang berfungsi untuk mengelompokan konten yang terkait pada sebuah halaman</td>
+                        </tr>
+                        <tr>
+                            <td><code>aside</code></td>
+                            <td>digunakan untuk konten yang sedikit terkait pada konten lainnya, contoh : sidebar / iklan</td>
+                        </tr>
+                        <tr>
+                            <td><code>footer</code></td>
+                            <td>mendefinisikan sebuah bagian footer/kaki dari sebuah website</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">selengkapnya mungkin bisa dilihat di <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">W3Schools</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <hr>
+            <article class="materi-html_image">
+                <h3>#Page 3 - HTML image</h3>
+                <p>tag <code>image</code> pada HTML yaitu tag yang memungkinkan kita para developer web untuk menyisipkan sebuah gambar salah satu tag dasar pada html dan disempurnakan melalui HTML5 yang lebih memperhatikan multimedia</p>
+                <h4>Contoh 1</h4>
+                <p>menyisipkan image dengan ukuran default sesuai ukuran gambar</p>
+                <img src="assets/image/aki.png" alt="gambar aki - anime chainsawman">
+                <h4>Contoh 2</h4>
+                <p>atur ukuran gambar dengan atribute pada tag image, salah satu atribute pada tag image adalah <strong>width & height</strong><br>ini adalah ukuran gambar dengan atribut <strong>width="300px"</strong><br></p>
+                <img src="assets/image/aki.png" alt="gambar aki - anime chainsawman" width="300px">
+                <p><strong>width</strong> untuk mengatur lebar gambar, dan <strong>height</strong> untuk mengatur tinggi gambar.<br>Pemakaian width dan height tidak harus bersamaan, kita bisa menggunakan salah satu dari mereka dan salah satu lainnya akan otomatis menyesuaikan perbandingan antara height : width dengan ratio asli gambar. <br>Namun jika kita menggunakan width dan height secara bersamaan dan perbandingan ukuran width:height yang kita buat tidak sesuai dengan ratio asli gambar maka yang terjadi gambar akan mengalami strech/perubahan ukuran yang tidak proporsional seperti ini :</p>
+                <h4>Contoh 3 - Gambar yang strech/unproporsional karena ratio width & height tidak sesuai ratio asli gambar</h4>
+                <img src="assets/image/aki.png" alt="gambar aki - anime chainsawman" width="150px" height="500px">
+                <img src="assets/image/aki.png" alt="gambar aki - anime chainsawman" width="450px" height="400px">
+            </article>
+            <hr>
+            <article class="materi-html_table">
+                <h3>#Page 4 - HTML Table / Tabel</h3>
+
+            </article>
+        </section>    
+    </main>
+    
+    <footer>
+        Fillian Adriansyah | Well Noted
+    </footer>
+    </div>
+</body>
+</html>
